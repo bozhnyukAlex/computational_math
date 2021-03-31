@@ -1,4 +1,6 @@
-from math import pi, cos, log
+from math import pi, cos, log, exp
+import numpy as np
+import scipy.integrate as integrate
 
 def integralLeft(a, b, n, f):
     h = (b - a) / n
